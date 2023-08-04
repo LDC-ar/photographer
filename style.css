@@ -149,7 +149,9 @@ nav a {
 	padding: 2rem 8rem;
 	border: 3px solid black;
 	margin-bottom: 4rem;
-	color: var(--grey-text);
+}
+.hero-intro a:hover {
+	background: rgb(238, 238, 238);
 }
 .hero-images {
 	flex: 1 1 40rem;
@@ -213,6 +215,7 @@ nav a {
 	justify-content: space-around;
 	background: var(--bg-color);
 	color: white;
+	padding-block: 5rem;
 }
 .about-text div {
 	padding: 2rem 7rem;
@@ -222,7 +225,6 @@ nav a {
 	font-family: 'Frank Ruhl medium';
 }
 .about-text h2 {
-	padding: 4rem 4rem 0 4rem;
 	font-family: 'Great Vibes';
 }
 
